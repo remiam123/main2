@@ -1,0 +1,209 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+::selection
+	background-color: $accent
+	color: #fff
+
+//start
+
+header
+    height: 773px
+    background-color: #606060
+    background-image: url(/img/hand2.png)
+    background-position: right
+    background-repeat: no-repeat
+    color: white
+    
+.top-left
+    margin-left: 200px
+    margin-top: 45px
+    
+.top-right
+    margin-top: 45px
+    margin-left: 1000px
+    
+.left-side
+    margin-left: 200px
+    margin-top: 100px
+    width: 500px
+    
+.pad
+    margin-top: 100px
+    margin-bottom: 50px
+    
+button
+    border: 2px solid white
+    border-radius: 5px
+    background-color: #606060
+    padding: 5px
+    width: 220px
+    vertical-align: baseline
+
+.cloud
+    width: 12%
+    margin-right: 10px
+    
+.center
+    font-size: 36px
+    text-align: center
+    margin-top: 100px
+    &-decorate
+        width: 285px
+        border-bottom: 4px solid #0086ED
+        margin-left: 685px
+        
+.txt-agua
+    color: #67CFF5
+    
+.flex-container
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    width: 80%
+    height: 85vh
+    margin-left: 170px
+    margin-top: 100px
+    
+.flex-item
+    width: 28%
+    
+    text-align: center
+
+.phone
+    flex: 0 0 40%
+    
+.padding
+    padding: 60px
+    
+.flag
+    flex: 0 0 40%
+    padding-top: 60px
+    padding-right: 140px
+    padding-bottom: 60px
+    padding-left: 140px
+    
+.iphone
+    max-width: 100%
+
+.gray
+    height: 650px
+    padding-top: 60px
+    background-color: #898989
+    & p
+        display: block
+        text-align: center
+        padding-left: 550px
+        padding-right: 550px
+        margin-top: 50px
+        margin-bottom: 50px
+    
+.round
+    width: 160px
+    height: 160px
+    background-color: black
+    border: 1px solid black
+    border-radius: 50%
+    margin: 0 auto
+    
+.gray span
+    display: block
+    width: 250px
+    margin: 0 auto
+    
+.dwnld
+    background-color: #F4F4F4
+    & div
+    width: 600px
+    text-align: center
+    margin: 0 auto
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+@import "media" // Всегда в конце
